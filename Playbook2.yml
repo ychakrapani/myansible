@@ -4,7 +4,7 @@
 - hosts: web
   become: yes
   vars: 
-    username: sonal
+    username: chakrapani
     doc_root: /var/www/html
   tasks:
 
