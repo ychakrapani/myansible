@@ -1,7 +1,7 @@
 # yum and service modules with sudo access
 
 ---
-- hosts: web
+- hosts: project
   become: yes
   vars: 
     username: chakrapani
